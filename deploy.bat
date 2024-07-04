@@ -1,1 +1,0 @@
-build.bat && docker run -p 3000:80 olfonet-test
