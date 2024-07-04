@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
 .header{
     background: linear-gradient(#18b4db, #ffffff);
     width: 1536px;
@@ -62,7 +61,7 @@
     display: inline-block;
     margin-left: 1250px;
     font-size: 18px;
-    color: #919191; /* Цвет обычной ссылки */
+    color: #18b4db; /* Цвет обычной ссылки */
     line-height: 1;
     text-decoration: none; /* Убираем подчеркивание */
     cursor: pointer;
@@ -182,18 +181,20 @@ body {
   max-width: 900px;
   margin: 30px auto;
   background: #ffffff;
-  padding: 30px;
+  margin-top: -230px;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 40px;
+  
 }
 
 h3, h4 {
   text-transform: uppercase;
   font-size: 1.1rem;
   margin: 20px 0 30px 0;
+  
 }
 
 input, select, textarea {
@@ -201,36 +202,43 @@ input, select, textarea {
   border: 1px solid black;
   padding: 10px 20px;
   font-size: .9rem;
+  
 }
 
 select {
   box-sizing: border-box;
   padding: 9px 20px 10px 20px;
+  
 }
 
 textarea {
   display: block;
   margin-bottom: 20px;
+  
 }
 
 input[type="color"] {
       padding: 8px 8px;
   position: relative;
   bottom: -2px;
+  
 }
 
 input[type="date"] {
    padding: 8px 8px;
+   
 }
 
 input[type="range"] {
    position: relative;
    bottom: -14px;
+   
 }
 
 input[type="date"]:active, input[type="date"]:focus, input[type="color"]:active, input[type="color"]:focus, input[type="password"]:active, input[type="password"]:focus, input[type="email"]:active, input[type="email"]:focus, select:active, select:focus   {
   border-radius: 0 !important;
   outline: none;
+  
 }
 
 button {
@@ -238,24 +246,28 @@ button {
   border: 1px solid black;
   padding: 10px 20px;
   font-size: .9rem;
+  
 }
 
 
 
 button:active {
-  background: #000;
+  background: #18b4db;
   color: #fff;
+  
 }
 
 .out-block {
   font-size: 1rem;
   font-family: monospace;
+  
 }
 
 .section {
   margin: 10px 0 10px 0;
   padding: 10px 0 30px 0;
   border-bottom: 1px solid #c2c2c2;
+  
 }
 
 .section div {
@@ -275,7 +287,7 @@ button:active {
 }
 
 .courses a {
-  color: #222;
+  color: #18b4db;
 }
 
 .slider {
@@ -285,6 +297,8 @@ button:active {
   /* height: 300px; */
   margin: 20px auto;
   overflow: hidden;
+  
+  
 }
 
 .slider-line {
@@ -296,15 +310,16 @@ button:active {
   transition: all ease 1s;
 }
 
-
 .wrap {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .button {
+  margin-left: 20px;
   min-width: 300px;
   min-height: 60px;
   display: inline-flex;
@@ -316,9 +331,9 @@ button:active {
   text-align: center;
   letter-spacing: 1.3px;
   font-weight: 700;
-  color: #313133;
+  color: #18b4db;
   background: #18b4db;
-background: linear-gradient(90deg, #18b4db 0%, #ffffff 100%);
+  background: linear-gradient(90deg, #18b4db 0%, #ffffff 100%);
   border: none;
   border-radius: 1000px;
   box-shadow: 12px 12px 24px #18b4db;
@@ -334,8 +349,8 @@ content: '';
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
-  border: 6px solid #18b4db;
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -346,7 +361,7 @@ content: '';
 
 .button:hover, 
 .button:focus {
-  color: #313133;
+  color: #18b4db;
   transform: translateY(-6px);
 }
 
@@ -386,3 +401,158 @@ content: '';
     opacity: 0;
   }
 }
+
+
+.boton {
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+        display: block;
+        position: relative;
+    }
+    
+    .botontext {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    .twist {
+        display: block;
+        height: 100%;
+        width: 25%;
+        position: relative;
+        float: left;
+        margin-left: -4px;
+    }
+    
+    .twist:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #18b4db;
+        bottom: 100%;
+        position: absolute;
+        transform-origin: center bottom 0px; 
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 0, -1, -0.003, 
+                            0, 1, 0, 0, 
+                            0, 0, 0, 1);
+        
+-webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+   -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+     -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+        transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); /* custom */
+    }
+    
+    .twist:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        height: 100%;
+        background: #18b4db;
+        transform-origin: center top 0px;
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 1, 0, 0, 
+                            0, 0, 1, -0.003, 
+                            0, -50, 0, 1);
+        
+-webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+   -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+     -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+        transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); /* custom */
+    }
+    
+    .boton:hover .twist:before {
+        background: #fff;
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 1, 0, 0, 
+                            0, 0, 1, 0.003, 
+                            0, 50, 0, 1);
+    }
+    
+    .boton:hover .twist:after {
+        background: #dedae1;
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 0, -1, 0.003, 
+                            0, 1, 0, 0, 
+                            0, 0, 0, 1);
+    }
+
+    .boton .twist:nth-of-type(1) {
+        margin-left: 0;
+    }
+    
+    .boton .twist:nth-of-type(1):before,
+    .boton .twist:nth-of-type(1):after {
+        transition-delay: 0s;
+    }
+    
+    .boton .twist:nth-of-type(2):before,
+    .boton .twist:nth-of-type(2):after {
+        transition-delay: 0.1s;
+    }
+    
+    .boton .twist:nth-of-type(3):before,
+    .boton .twist:nth-of-type(3):after {
+        transition-delay: 0.2s;
+    }
+    
+    .boton .twist:nth-of-type(4):before,
+    .boton .twist:nth-of-type(4):after {
+        transition-delay: 0.3s;
+    }
+    
+    .boton .botontext:nth-of-type(1) {
+        
+        bottom: 100%;
+        transform-origin: center bottom 0px; 
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 0, -1, -0.003, 
+                            0, 1, 0, 0, 
+                            0, 0, 0, 1);
+        
+-webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+   -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+     -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+        transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); /* custom */
+    }
+    
+    .boton:hover .botontext:nth-of-type(1) {
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 1, 0, 0, 
+                            0, 0, 1, 0.003, 
+                            0, 50, 0, 1);
+    }
+    
+    .boton .botontext:nth-of-type(2) {
+        color: #fff;
+        top: 100%;
+        transform-origin: center top 0px;
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 1, 0, 0, 
+                            0, 0, 1, -0.003, 
+                            0, -50, 0, 1);
+        
+-webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+   -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+     -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); 
+        transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995); /* custom */
+    }
+    
+    .boton:hover .botontext:nth-of-type(2) {
+        transform: matrix3d(1, 0, 0, 0, 
+                            0, 0, -1, 0.003, 
+                            0, 1, 0, 0, 
+                            0, 0, 0, 1);
+    }
+
+    
+    

@@ -1,5 +1,14 @@
-//Inspired by: https://codepen.io/ManuAlvarado22/pen/MPYqXE
 
+
+$(window).ready(function(){
+    $(".boton").wrapInner('<div class=botontext></div>');
+        
+        $(".botontext").clone().appendTo( $(".boton") );
+        
+        $(".boton").append('<span class="twist"></span><span class="twist"></span><span class="twist"></span><span class="twist"></span>');
+        
+        $(".twist").css("width", "25%").css("width", "+=3px");
+    });
 
 const images = document.querySelectorAll('.slider .slider-line img');
 const sliderLine = document.querySelector('.slider .slider-line');
@@ -40,3 +49,4 @@ function rollSlider() {
     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
 }
+
