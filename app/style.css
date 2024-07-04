@@ -24,11 +24,15 @@
     color: #919191;
     font-size: 18px;
 }
-
+.phone3{
+  margin-left: 600px;
+  color: #919191;
+  font-size: 18px;
+}
 
 .WorkTime1{
     margin-left: 900px;
-    margin-top: -55px;
+    margin-top: -75px;
     color: #158be0; 
     font-size: 30px;
 }
@@ -163,6 +167,49 @@ body {
        margin-top: 1000px;
  }
 
-#id{
-    margin-top: 1000px;
+.about{
+  margin-top: 20px;
+  text-decoration: none;
+
+}
+
+
+.wrapper{
+  padding: 30px;
+  min-height: 100%;
+}
+
+.image-slider{
+  padding: 30px 0 70px 0;
+}
+
+.image-slider__wrapper{
+
+}
+
+.image-slider__slide{
+
+}
+
+.image-slider__image{
+  text-align: center;
+}
+
+.image-slider__image img{
+  max-width: 100%;
+}
+
+.block{
+  display: flex;
+}
+.block__side{
+  flex: 0 0 300px;
+  background-color: #9C27B0;
+}
+
+.block__body{
+  padding: 0px 0px 0px 30px;
+  flex: 1 1 auto;
+
+  min-width: 0;
 }
