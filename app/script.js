@@ -1,3 +1,6 @@
+//Inspired by: https://codepen.io/ManuAlvarado22/pen/MPYqXE
+
+
 const images = document.querySelectorAll('.slider .slider-line img');
 const sliderLine = document.querySelector('.slider .slider-line');
 let count = 0;
