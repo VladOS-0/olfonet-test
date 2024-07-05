@@ -857,34 +857,20 @@ content: '';
 }
 
 
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 450px;
-  margin: auto;
-}
+.thumb .img  {
+  
+  padding: 15px; /* Расстояние от картинки до рамки */
+  background: #18b4db; /* Цвет фона */
+  margin-left: 120px;
+  margin-right: 10px; /* Отступ справа */
+  margin-bottom: 10px; /* Отступ снизу */
+ }
 
-img {
-  max-width: 450px;
-  max-height: 350px;
-}
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
+ .img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+ 
 
-.figure1{
-  display: flex;
-  margin-left: 0px;
-}
-.figure2{
-  display: flex;
-  margin-left: 200px;
-  margin-top: -155px;
-}
+
+
