@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     background: linear-gradient(#18b4db, #ffffff);
     width: 1536px;
@@ -785,3 +789,28 @@ button:active {
 .img:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
 }
+.test{
+    margin-top: 30px;
+}
+
+.Gippo1{
+    position: absolute;
+    left: 50px;
+    top: 1750px;
+}
+.Gippo2{
+    position: absolute;
+    left: 550px;
+    top: 1750px;
+}
+.Gippo3{
+    position: absolute;
+    left: 1000px;
+    top: 1750px;
+}
+.Gippo4{
+    position: absolute;
+    left: 100px;
+    top: 2250px;
+}
+   
