@@ -33,24 +33,16 @@
       <div class="WorkTime1">Время работы</div>
       <div class="WorkTime2">Время работы: Пн-Вс 9.00-18.00</div>
       <div class="WorkTime3">СБ-ВС выходные</div>
-      <div class="inst1">INSTAGRAM</div>
-      <div class="link-ease-in-out">
-        <a href="https://www.instagram.com/netgo.by/?igshid=191yudjhllgnd" title="instagram">Olfonet</a>
-      </div>
+    </div>
 
     </div>
     <div class="main"></div>
   </header>
-  <!-- <a href="#" class="about">О компании</a> -->
-  <!-- <a href="#" class="about">Наши услуги</a> -->
-  <!-- <a href="#" class="reviews">Отзывы</a> -->
-  <!-- <a href="#" class="about">Слайдер</a> -->
-  <a href="#catalog" class="boton1 catalog">Каталог</a>
-  <a href="#about" class="boton2 about">О компании</a>
-  <a href="#reviews" class="boton3 reviews">Отзывы</a>
-
-
-
+  <div class="anchor_container">
+    <a href="#catalog" class="boton1 catalog">Каталог</a>
+    <a href="#about" class="boton2 about">О компании</a>
+    <a href="#reviews" class="boton3 reviews">Отзывы</a>
+  </div>
 
 
 
@@ -80,25 +72,60 @@
 
 
 
-
   <!-- catalog -->
 
-  <h1 id="catalog">Каталог</h1>
+  <h1 id="catalog" class="catalog_header">Наши услуги</h1>
 
-
-  <p class="thumb">
-
-    <img src="static/catalog.png" alt="Фотография 1" width="320" height="320" class="img">
-    <img src="static/catalog2.png" alt="Фотография 2" width="320" height="320" class="img">
-    <img src="static/catalog3.png" alt="Фотография 2" width="320" height="320" class="img">
-
-  </p>
-  <p class="thumb">
-    <img src="static/catalog4.jpg" alt="Фотография 1" width="320" height="320" class="img">
-    <img src="static/catalog5.png" alt="Фотография 2" width="320" height="320" class="img">
-    <img src="static/catalog2.png" alt="Фотография 2" width="320" height="320" class="img">
-
-  </p>
+  <div class="catalog_container">
+    <div class="catalog_card">
+      <img src="static/catalog4.png" alt="СКУД" class="catalog_image">
+      <h2>СКУД</h2>
+      <hr>
+      <p>Системы контроля и управления доступом (СКУД) - это передовые решения для обеспечения
+        безопасности и эффективности вашего бизнеса. ОЛФОНЕТ является официальным дилером оборудования для СКУД и
+        предлагает полный спектр услуг по установке, настройке и подключению систем.</p>
+    </div>
+    <div class="catalog_card">
+      <img src="static/catalog2.png" alt="IP-телефония" class="catalog_image">
+      <h2>IP-телефония</h2>
+      <hr>
+      <p>В нашей компетенции организация IP-телефонии любой сложности - от небольших офисов до крупных корпоративных
+        сетей.
+        Наши специалисты помогут подобрать оптимальную конфигурацию оборудования и настроить его в соответствии с вашими
+        требованиями.</p>
+    </div>
+    <div class="catalog_card">
+      <img src="static/catalog.png" alt="ЛВС" class="catalog_image">
+      <h2>ЛВС</h2>
+      <hr>
+      <p>Мы предлагаем комплексные решения по построению локальных вычислительных сетей (ЛВС) для
+        организаций любого масштаба. Наши специалисты спроектируют и реализуют ЛВС "под ключ", обеспечив высокую
+        производительность, надежность и безопасность сети.</p>
+    </div>
+    <div class="catalog_card">
+      <img src="static/catalog5.png" alt="Видеонаблюдение" class="catalog_image">
+      <h2>Видеонаблюдение</h2>
+      <hr>
+      <p>Установка системы видеонаблюдения нашими специалистами обеспечит безопасное и комфортное ведение дел:
+        видеорегистраторы и IP-камеры позволят легко и удобно наблюдать за происходящим внутри и снаружи.</p>
+    </div>
+    <div class="catalog_card">
+      <img src="static/catalog6.png" alt="IT-аутсорсинг" class="catalog_image">
+      <h2>IT-аутсорсинг</h2>
+      <hr>
+      <p>ОЛФОНЕТ - это команда профессионалов, которые возьмут на себя все заботы по обслуживанию и поддержке вашей
+        IT-системы. Установка и настройка программного обеспечения, обслуживание серверов и компьютеров - всё это мы
+        исполняем на высшем уровне.</p>
+    </div>
+    <div class="catalog_card">
+      <img src="static/catalog3.png" alt="Умный дом" class="catalog_image">
+      <h2>"Умный дом"</h2>
+      <hr>
+      <p>Решения "Умный дом" от Olfonet совместимы с оборудованием ведущих мировых производителей, таких как Xiaomi,
+        Philips, Sonos и др. Наши специалисты помогут подобрать оптимальную конфигурацию системы под ваши потребности и
+        установить ее "под ключ".</p>
+    </div>
+  </div>
 
 
   <!-- About -->
@@ -122,17 +149,18 @@
   <h1 id="reviews">Отзывы</h1>
 
   <p class="Gippo1"><img src="static/отзыв1.jfif" width="300" alt="Иллюстрация" align="left" vspace="5" hspace="5">
-  <br><br><b>ООО ГипоГрупп</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span> 
+    <br><br><b>ООО ГипоГрупп</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span>
   </p>
   <p class="Gippo2"><img src="static/отзыв2.jfif" width="300" alt="Иллюстрация" align="left" vspace="5" hspace="5">
-    <br><br><b>Частное предприятие "Парацельс"</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span> 
-  </p> 
+    <br><br><b>Частное предприятие "Парацельс"</b><br><br><span>Установка IP-телефонии и и интеграция ее с
+      CRM-системой</span>
+  </p>
   <p class="Gippo3"><img src="static/отзывы3.jfif" width="300" alt="Иллюстрация" align="left" vspace="5" hspace="5">
-    <br><br><b>ООО "МДФ Техно Фасад"</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span> 
+    <br><br><b>ООО "МДФ Техно Фасад"</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span>
   </p>
   <p class="Gippo4"><img src="static/отзывы4.jfif" width="300" alt="Иллюстрация" align="left" vspace="5" hspace="5">
-      <b>ОАО Борисовский мясокомбинат</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span> 
-  </p> 
+    <b>ОАО Борисовский мясокомбинат</b><br><br><span>Установка IP-телефонии и и интеграция ее с CRM-системой</span>
+  </p>
 
 
 
