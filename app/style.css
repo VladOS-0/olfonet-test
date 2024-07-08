@@ -830,12 +830,12 @@ button:active {
     margin-top: 6vh;
     margin-bottom: 7vh;
     text-align: center;
-    color: #223ccd;
+    color: #0033cc;
 }
 
 .hr_between_sections {
     height: max-content;
-    color: #223ccd;
+    color: #0033cc;
 }
 .catalog_container {
     display: grid;
@@ -886,7 +886,7 @@ button:active {
     font-size: +5vh;
     margin-bottom: 7vh;
     text-align: center;
-    color: #223ccd;
+    color: #0033cc;
 }
 
 .reviews_container {
@@ -935,7 +935,7 @@ button:active {
     font-size: +5vh;
     margin-bottom: 7vh;
     text-align: center;
-    color: #223ccd;
+    color: #0033cc;
  }
  .conteiner_about {
     display: grid;
@@ -956,3 +956,23 @@ button:active {
     margin-left: 5%;
 }
 
+/**
+ * 
+ * footer
+ * 
+ */
+
+ .footer {
+    background-color: #0033cc; /* Синий цвет */
+    color: #ffffff; /* Белый цвет */
+    text-align: center;
+    padding: 20px 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
