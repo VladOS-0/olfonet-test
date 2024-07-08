@@ -1,3 +1,20 @@
+/**
+ * 
+ * АНИМАЦИИ
+ * 
+ */
+
+._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+._animated {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -90,6 +107,10 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     --hero-height: 160px;
+    /*
+    background-size: cover;
+    background-image: url('static/back.png');
+    */
 }
 
 .header {
@@ -923,6 +944,8 @@ button:active {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: +18px;
 }
+
+
 
 /**
  * 
