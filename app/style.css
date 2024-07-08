@@ -855,8 +855,9 @@ button:active {
  */
 
 .hr_between_sections {
-    height: max-content;
+    height: 2px;
     color: #0033cc;
+    background-color: #0033cc;
     width: 70%;
     margin-bottom: 5vh;
 }
