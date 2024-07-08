@@ -816,7 +816,7 @@ button:active {
 
 .anchor_container {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: auto auto auto;
     margin-top: 5vh;
     margin-bottom: 3vh;
     margin-left: 15vw;
