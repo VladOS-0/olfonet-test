@@ -81,3 +81,4 @@ if (animatedItems.length > 0) {
     }, 300)
 }
 
+// футер
