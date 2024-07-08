@@ -4,15 +4,15 @@
  * 
  */
 
-._active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-}
-
 ._animated {
     transform: translate(0px, 120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
+}
+
+._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 html{
@@ -867,6 +867,7 @@ button:active {
     /* Будет создано 3 ряда */
     grid-template-rows: auto auto;
 }
+
 .catalog_card h2 {
     margin-top: 1px;
     margin-bottom: 4px;
@@ -896,6 +897,26 @@ button:active {
     height: 9vh;
     width: 6vw;
     top: 0.5vh;
+}
+
+/** Поочерёдные анимации при скроллинге */
+.catalog_card._active:nth-of-type(1) {
+    transition: all 0.8s ease 0s;
+}
+.catalog_card._active:nth-of-type(2) {
+    transition: all 0.8s ease 0.2s;
+}
+.catalog_card._active:nth-of-type(3) {
+    transition: all 0.8s ease 0.4s;
+}
+.catalog_card._active:nth-of-type(4) {
+    transition: all 0.8s ease 0s;
+}
+.catalog_card._active:nth-of-type(5) {
+    transition: all 0.8s ease 0.2s;
+}
+.catalog_card._active:nth-of-type(6) {
+    transition: all 0.8s ease 0.4s;
 }
 
 /**
@@ -938,7 +959,19 @@ button:active {
     font-size: +18px;
 }
 
-
+/** Поочерёдные анимации при скроллинге */
+.review_card._active:nth-of-type(1) {
+    transition: all 0.8s ease 0s;
+}
+.review_card._active:nth-of-type(2) {
+    transition: all 0.8s ease 0.2s;
+}
+.review_card._active:nth-of-type(3) {
+    transition: all 0.8s ease 0s;
+}
+.review_card._active:nth-of-type(4) {
+    transition: all 0.8s ease 0.2s;
+}
 
 /**
  * 
