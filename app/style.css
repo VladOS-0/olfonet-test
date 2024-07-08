@@ -838,11 +838,10 @@ button:active {
     color: #223ccd;
 }
 .catalog_container {
-    margin-left: 6vw;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: auto auto auto;
     /* Будет создано 3 ряда */
-    grid-template-rows: 20% 20%;
+    grid-template-rows: auto auto;
 }
 .catalog_card h2 {
     margin-top: 1px;
