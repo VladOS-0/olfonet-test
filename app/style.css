@@ -855,7 +855,7 @@ button:active {
  */
 
 .hr_between_sections {
-    height: 2px;
+    height: 1px;
     color: #0033cc;
     background-color: #0033cc;
     width: 70%;
