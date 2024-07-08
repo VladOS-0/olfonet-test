@@ -4,60 +4,60 @@ html{
 
 .header {
     background: linear-gradient(#18b4db, #ffffff);
-    width: 1536px;
+    width: 100%;
     height: 100px;
 }
 
 .logo {
-    width: 280px;
+    width: 19%;
     height: 70px;
     margin-top: 40px;
     margin-left: 120px;
 }
 
+
+
 .phone {
-    margin-left: 600px;
+    
+    margin-left: 40%;
     margin-top: -70px;
     color: #158be0;
     font-size: 30px;
 }
 
 .phone2 {
-    margin-left: 600px;
+    
+    margin-left: 40%;
     color: #919191;
     font-size: 18px;
 }
 .phone3 {
-    margin-left: 600px;
+    
+    margin-left: 40%;
     color: #919191;
     font-size: 18px;
 }
 
 .WorkTime1 {
-    margin-left: 900px;
+    margin-left: 70%;
     margin-top: -75px;
     color: #158be0;
     font-size: 30px;
 }
 
 .WorkTime2 {
-    margin-left: 900px;
+    margin-left: 70%;
     color: #919191;
     font-size: 18px;
 }
 
 .WorkTime3 {
-    margin-left: 900px;
+    margin-left: 70%;
     color: #919191;
     font-size: 18px;
 }
 
-.inst1 {
-    margin-left: 1250px;
-    margin-top: -75px;
-    color: #158be0;
-    font-size: 30px;
-}
+
 
 .link-ease-in-out a {
     display: inline-block;
