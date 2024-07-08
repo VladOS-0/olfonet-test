@@ -860,11 +860,11 @@ button:active {
     margin-left: 3vw;
     margin-bottom: 5vw;
     padding-bottom: 0.5vh;
-    background-color:#fff;
     text-align: center;
 }
 .catalog_card:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
+    background-color:#fff;
 }
 
 .catalog_image {
@@ -891,19 +891,20 @@ button:active {
 
 .reviews_container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    margin-left: 3vw;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .review_card:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
+    background-color:#fff;
 }
 
 .review_card {
-    width: 30vw;
-    margin-left: 7vw;
-    margin-bottom: 5vw;
+    width: 35vw;
+    margin-bottom: 1vw;
     padding-bottom: 0.5vh;
-    background-color:#fff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -914,7 +915,7 @@ button:active {
     margin-right: 10px; /* Отступ справа */
     padding: 5%; /* Расстояние от картинки до рамки */
     height: 65vh;
-    width: 30vw;
+    width: 25vw;
     float: left;
 }
 
