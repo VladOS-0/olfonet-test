@@ -1002,42 +1002,52 @@ button:active {
  * ФУТЕР
  * 
  */
-
  .footer {
-    position: relative;
-    height: 300px;
-    background: #333;
+    background: #18b4db; /* Blue background */
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 15px 0 30px 10px;
     text-align: center;
-}
-
-.footer .footer-content {
     position: relative;
-    z-index: 2;
 }
 
-.wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo1 img {
+    width: 120%; /* Adjust logo size as needed */
     height: auto;
-    z-index: 1;
-    animation: waveAnimation 10s linear infinite;
-    transform-origin: bottom;
+    display: block;
 }
 
-@keyframes waveAnimation {
-    0% {
-        transform: translateY(0) translateX(0);
-    }
-    50% {
-        transform: translateY(-25px) translateX(50px);
-    }
-    100% {
-        transform: translateY(0) translateX(0);
-    }
+.social-links {
+    display: flex;
+    gap: 10px;
 }
+.social-links a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.social-links a:after {
+    background-color: #0033cc; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.social-links a:hover:after,
+.social-links a:focus:after {
+    width: 100%;
+}
+
+
+
+
+ 
