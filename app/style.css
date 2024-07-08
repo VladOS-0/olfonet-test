@@ -949,18 +949,19 @@ button:active {
 
 /**
  * 
- * О компании
+ * О КОМПАНИИ
  * 
  */
 
- .about_header{
+.about_header{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: +5vh;
     margin-bottom: 7vh;
     text-align: center;
     color: #0033cc;
- }
- .conteiner_about {
+}
+
+.container_about {
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -970,7 +971,6 @@ button:active {
     padding: -5%; /* Расстояние от картинки до рамки */
     height: 35vh;
     width: 20vw;
-    
 }
 
 .containerdiv{
@@ -981,11 +981,11 @@ button:active {
 
 /**
  * 
- * footer
+ * ФУТЕР
  * 
  */
 
- .footer {
+.footer {
     background-color: #0033cc; /* Синий цвет */
     color: #ffffff; /* Белый цвет */
     text-align: center;
