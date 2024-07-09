@@ -20,8 +20,7 @@ if (animatedItems.length > 0) {
             if (itemHeight > window.innerHeight) {
                 itemAnimPoint = window.innerHeight - window.innerHeight / animStart
             }
-            // Да, 400 - это костыль, увы
-            if((scrollY > itemOffset - itemAnimPoint - 400) && scrollY < (itemOffset + itemHeight)) {
+            if((scrollY > itemOffset - itemAnimPoint - itemHeight) && scrollY < (itemOffset + itemHeight)) {
                 item.classList.add('_active')
             }
         }
