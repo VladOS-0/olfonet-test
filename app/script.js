@@ -20,7 +20,7 @@ if (animatedItems.length > 0) {
             if (itemHeight > window.innerHeight) {
                 itemAnimPoint = window.innerHeight - window.innerHeight / animStart
             }
-            if((scrollY > itemOffset - itemAnimPoint - itemHeight) && scrollY < (itemOffset + itemHeight)) {
+            if((scrollY > itemOffset - itemAnimPoint - itemHeight * 1.3) && scrollY < (itemOffset + itemHeight)) {
                 item.classList.add('_active')
             }
         }
